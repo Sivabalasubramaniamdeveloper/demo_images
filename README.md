@@ -1,39 +1,26 @@
-<!--
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+# demo_images
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/tools/pub/writing-package-pages).
+A asset and network image carousel slider widget.
+Give the list of asset image or network image it give you slider
 
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/to/develop-packages).
--->
+## Features 
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+* Infinite scroll
+* show asset images
+* Auto play is avaliable
 
-## Features
+## Supported platforms
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+* Flutter Android
+* Flutter iOS
+* Flutter web
+* Flutter desktop
 
-## Getting started
+## How to use
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
-
-## Usage
-
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
+Simply create a `DemoInages` widget, and pass the required params:
 
 ```dart
-const like = 'sample';
+DemoImages(urls:imgUrls, height: 400,asset: false, )
 ```
 
-## Additional information
-
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
